@@ -5,13 +5,17 @@
 **a. Initial design**
 
 - Briefly describe your initial UML design.
+My initial UML design had classes such as Pet, Task, Scheduler, and User. The Pet class was responsible for storing information about each pet like name, type, and age. The Task class handled activities such as walks, feeding, or vet visits. The Scheduler class was responsible for organizing tasks and making sure they were assigned at appropriate times. The User class represented the person using the app and connected all the pets and tasks together.
 - What classes did you include, and what responsibilities did you assign to each?
+Yes, my design changed during implementation. At first, I had the Scheduler directly manage all task details, but I realized it was better to let the Task class handle more of its own data. This made the code more organized and easier to manage. I made this change to improve clarity and keep responsibilities separated.
+  
 
 **b. Design changes**
 
 - Did your design change during implementation?
+Yes, my design changed during implementation. This made the code more organized and easier to manage. I made this change to improve clarity and keep responsibilities separated
 - If yes, describe at least one change and why you made it.
-
+At first, I had the Scheduler directly manage all task details, but I realized it was better to let the Task class handle more of its own data.
 ---
 
 ## 2. Scheduling Logic and Tradeoffs
